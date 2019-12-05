@@ -1,0 +1,6 @@
+function B = zadatak8(A)
+    
+[rows, ~] = size(A);
+
+
+end
