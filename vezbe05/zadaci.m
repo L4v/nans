@@ -92,3 +92,18 @@ scatter(xp, f(xp), 'green');
 p = lagrangeInterp(xp, f(xp))
 px = polyval(p, x);
 plot(x, px, 'red');
+
+%%
+% 6.)
+close
+clear
+x = [0.1 0.3 0.6 1.2];
+fX = [1.023 1.261 2.368 9.064];
+p = lagrangeInterp(x, fX);
+a0 = p(4)
+a1 = p(3)
+a2 = p(2)
+a1 = p(1)
+
+x = [0.1 0.3 0.6 1.2];
+fX = [1.023 1.261 2.368 9.064];
